@@ -1,0 +1,51 @@
+body {
+    background-color: fffff;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    padding-left: 15px; 
+    padding-right: 15px;
+    max-width: 943.61px;
+    margin: 0 auto;
+}
+.data {
+    display: flex;
+    list-style: persian;
+    padding-left: -11px;
+    padding-right: 1px;
+    margin: 0px;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-end;
+
+}
+.pidor {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    
+}
+.poster {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 943.61px;
+    margin: 0 auto;
+    }
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-weight: 700;
+}
+.menu>li:first-child {
+padding-left: 0px;
+margin-left: 0px;
+}    
+.menu>li {
+    padding-left: 165px;
+    margin-left: 32;
+    margin-bottom: 10px;
+}
+.menu>li>a {
+    text-decoration: none;
+    color: #828282;
+}
